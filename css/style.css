@@ -53,6 +53,17 @@ h1 {
   padding: 5px 0;
 }
 
+h4 {
+  font-size: 1.5rem;
+  margin-top: 15px;
+  margin-left: 25px;
+}
+
+h5 {
+  font-size: 2rem;
+  font-weight: light;
+}
+
 /* # MAIN */
 
 /* preparazione tiramisù */
@@ -67,6 +78,10 @@ h1 {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
+}
+
+.preparation {
+  margin-left: 25px;
 }
 
 .product-title {
@@ -96,15 +111,59 @@ iframe {
   padding-bottom: 20px;
 }
 
-h4 {
-  font-size: 1.5rem;
-  margin-top: 15px;
-}
-
 .recipe-preparation {
   margin-top: 15px;
 }
 
 .recipe-preparation li {
   margin-bottom: 15px;
+}
+
+/* social network */
+
+.social-networks {
+  padding: 0px 30px;
+  margin-top: 30px;
+}
+
+.social-networks ul {
+  justify-content: space-around;
+  align-items: center;
+}
+
+.text-icon {
+  display: none;
+}
+
+.social {
+  background-color: white;
+  padding: 15px 20px;
+  border-radius: 35%;
+}
+
+.color-blu {
+  color: #1a77f3;
+}
+
+.color-sky-blu {
+  color: #009eff;
+}
+
+.color-purple {
+  color: #e177a9;
+}
+
+.color-red {
+  color: #e83b34;
+}
+
+/* banner */
+
+.advertising-banner {
+  display: none;
+  margin-top: 40px;
+}
+
+.section-presentation {
+  margin-top: 40px;
 }
