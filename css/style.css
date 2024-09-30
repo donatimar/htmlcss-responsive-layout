@@ -38,14 +38,6 @@ li {
   list-style: none;
 }
 
-/* # HEADER */
-
-#navbar {
-  text-align: center;
-  background-color: white;
-  margin-bottom: 30px;
-}
-
 h1 {
   font-family: "Nerko One", cursive;
   color: #fe9718;
@@ -62,6 +54,14 @@ h4 {
 h5 {
   font-size: 2rem;
   font-weight: light;
+}
+
+/* # HEADER */
+
+#navbar {
+  text-align: center;
+  background-color: white;
+  margin-bottom: 30px;
 }
 
 /* # MAIN */
