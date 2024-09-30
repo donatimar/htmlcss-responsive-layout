@@ -164,6 +164,25 @@ iframe {
   margin-top: 40px;
 }
 
+/* presentation */
+
 .section-presentation {
   margin-top: 40px;
 }
+
+hr {
+  width: 15%;
+  margin: 15px 0;
+  border: 1px solid #f7972e;
+}
+
+.recipe-image {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.recipe-paragraph {
+  line-height: 1.8;
+}
+
+/* # FOOTER */
