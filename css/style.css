@@ -16,7 +16,7 @@
 }
 
 body {
-  font-family: "Montserrat, 'Helvetica Neue', sans-serif";
+  font-family: "Montserrat", "Helvetica Neue", sans-serif;
   background-color: #f6f5f3;
 }
 
@@ -50,4 +50,61 @@ h1 {
   font-family: "Nerko One", cursive;
   color: #fe9718;
   font-size: 4rem;
+  padding: 5px 0;
+}
+
+/* # MAIN */
+
+/* preparazione tiramisù */
+
+.recipe-category {
+  font-size: 1rem;
+  color: #9999b0;
+  margin-bottom: 15px;
+}
+
+.recipe-title {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.product-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #4e3969;
+}
+
+.title-transparent {
+  display: none;
+  font-size: 2rem;
+  color: #4e3969;
+}
+
+.recipe-video {
+  width: 100%;
+  height: 400px;
+}
+
+iframe {
+  height: 100%;
+  width: 100%;
+}
+
+.background-video {
+  background-color: white;
+  padding-bottom: 20px;
+}
+
+h4 {
+  font-size: 1.5rem;
+  margin-top: 15px;
+}
+
+.recipe-preparation {
+  margin-top: 15px;
+}
+
+.recipe-preparation li {
+  margin-bottom: 15px;
 }
