@@ -141,11 +141,11 @@ iframe {
   border-radius: 20px;
 }
 
-.color-blu {
+.color-blue {
   color: #1a77f3;
 }
 
-.color-sky-blu {
+.color-sky-blue {
   color: #009eff;
 }
 
@@ -228,6 +228,10 @@ footer {
     margin-bottom: 50px;
   }
 
+  .product-title {
+    font-size: 2.5rem;
+  }
+
   .title-transparent {
     display: inline-block;
   }
@@ -262,5 +266,57 @@ footer {
     margin: 0;
     width: 45%;
     margin-right: 15px;
+  }
+}
+
+/* # MEDIA QUERY 992px */
+
+@media screen and (min-width: 992px) {
+  .product-title {
+    font-size: 3rem;
+  }
+
+  .background-video {
+    display: flex;
+  }
+
+  .recipe-video {
+    width: 100%;
+  }
+
+  .text-icon {
+    display: inline-block;
+    margin-left: 5px;
+    font-weight: bold;
+  }
+
+  .social {
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+  }
+
+  .recipe-preparation li {
+    width: 100%;
+    margin-right: 0px;
+    line-height: 1;
+  }
+
+  .recipe-image {
+    width: 35%;
+  }
+
+  footer {
+    margin-top: 50px;
+    border-top: 1px solid white;
+  }
+
+  .recipe-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .recipe-booleando {
+    text-align: start;
   }
 }
