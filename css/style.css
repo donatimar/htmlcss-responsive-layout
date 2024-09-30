@@ -138,7 +138,7 @@ iframe {
 .social {
   background-color: white;
   padding: 15px 20px;
-  border-radius: 35%;
+  border-radius: 20px;
 }
 
 .color-blu {
@@ -217,4 +217,50 @@ footer {
 
 .street {
   font-style: normal;
+}
+
+/* # MEDIA QUERY 768px */
+
+@media screen and (min-width: 768px) {
+  #navbar {
+    text-align: start;
+    padding-left: 20px;
+    margin-bottom: 50px;
+  }
+
+  .title-transparent {
+    display: inline-block;
+  }
+
+  .recipe-video {
+    height: 400px;
+  }
+
+  .recipe-preparation {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+
+  .recipe-preparation li {
+    margin-right: 50px;
+    line-height: 2;
+  }
+
+  .social {
+    padding: 15px 75px;
+    border-radius: 20px;
+  }
+
+  .advertising-banner {
+    display: flex;
+    justify-content: center;
+  }
+
+  .recipe-image {
+    float: left;
+    margin: 0;
+    width: 45%;
+    margin-right: 15px;
+  }
 }
